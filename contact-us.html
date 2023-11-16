@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contact Us - All American Glass</title>
+    <link rel="icon" href="Images/AllAmericanGlassLogoNew.png" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+     <!-- Start Of Header -->
+       <header>
+      <div class="header">
+        <img
+          class="logo"
+          src="Images/AllAmericanGlassLogoNew.png"
+          alt="Company Logo"
+        />
+        <nav class="navigation">
+          <a href="index.html">Home</a>
+          <div class="dropdown">
+            <a href="#">About Us</a>
+            <div class="dropdown-menu">
+              <a href="contact-us.html">Contact Us</a>
+              <a href="who-we-are.html">Who We Are</a>
+              <a href="testimonials.html">Testimonials</a>
+              <a href="Portfolio.html">Portfolio</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="#">Services</a>
+            <div class="dropdown-menu">
+              <a href="replacement.html">Replacement</a>
+              <a href="cleaning.html">Cleaning</a>
+              <a href="custom-designs.html">Custom Designs</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="header-image">
+        <div>
+          <h1 class="company-name">All American Glass</h1>
+          <p class="slogan">Regenerating spaces with innovative glass</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- End Of Header -->
+
+<br>
+<div class="box">
+  <h2>Contact Us</h2>
+  <p>We're always here to help with any of your glass repair needs. If you have any questions about the services we offer or would like to schedule an appointment, please don't hesitate to reach out to us. Our friendly and knowledgeable team is dedicated to providing exceptional customer service, and we take pride in our work. Whether you need a window repaired, a custom mirror installed, or any other type of glass work, we have the expertise and experience to get the job done right. Contact us today to learn more about how we can help you!</p></div>
+    <br>
+
+ <h1 class="title">Schedule an Appointment</h1>
+    <form id="appointmentForm" action="confirmation.html">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <div class="error" id="nameError"></div>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <div class="error" id="emailError"></div>
+        </div>
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <div class="error" id="phoneError"></div>
+        </div>
+        <div>
+            <label for="date">Appointment Date:</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <label for="time">Appointment Time:</label>
+            <input type="time" id="time" name="time">
+        </div>
+      <center>
+ <input type="submit" id="submitBtn" value="Submit">
+        </center>
+    </form>
+<br>
+    <br>
+    <br>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+
+
+    
+    <!-- Start Of Footer -->
+    <footer>
+      <div class="container">
+        <div class="left">
+          <p>&copy; 2023 All American Glass. All rights reserved.</p>
+        </div>
+        <div class="right">
+          <div class="footer">
+            <p>Store Hours:</p>
+            <ul>
+              <li>Monday-Friday: 7am - 5pm</li>
+              <li>Saturday: 8am - 1pm</li>
+              <li>Sunday: Closed</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Of Footer -->
+  </body>
+</html>
